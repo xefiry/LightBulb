@@ -1,13 +1,6 @@
 # LightBulb
 
-[![Status](https://img.shields.io/badge/status-maintenance-ffd700.svg)](https://github.com/Tyrrrz/.github/blob/master/docs/project-status.md)
-[![Made in Ukraine](https://img.shields.io/badge/made_in-ukraine-ffd700.svg?labelColor=0057b7)](https://tyrrrz.me/ukraine)
-[![Build](https://img.shields.io/github/actions/workflow/status/Tyrrrz/LightBulb/main.yml?branch=master)](https://github.com/Tyrrrz/LightBulb/actions)
-[![Coverage](https://img.shields.io/codecov/c/github/Tyrrrz/LightBulb/master)](https://codecov.io/gh/Tyrrrz/LightBulb)
-[![Release](https://img.shields.io/github/release/Tyrrrz/LightBulb.svg)](https://github.com/Tyrrrz/LightBulb/releases)
-[![Downloads](https://img.shields.io/github/downloads/Tyrrrz/LightBulb/total.svg)](https://github.com/Tyrrrz/LightBulb/releases)
-[![Discord](https://img.shields.io/discord/869237470565392384?label=discord)](https://discord.gg/2SUWKFnHSm)
-[![Fuck Russia](https://img.shields.io/badge/fuck-russia-e4181c.svg?labelColor=000000)](https://twitter.com/tyrrrz/status/1495972128977571848)
+This is a fork of the original [LightBulb](https://github.com/Tyrrrz/LightBulb) by Tyrrrz.
 
 <table>
     <tr>
@@ -26,25 +19,24 @@ Its primary objective is to match the color of the screen to the light sources o
 
 > ❔ If you have questions or issues, **please refer to the [wiki](https://github.com/Tyrrrz/LightBulb/wiki)**.
 
-## Terms of use<sup>[[?]](https://github.com/Tyrrrz/.github/blob/master/docs/why-so-political.md)</sup>
+## Changes from original
+
+- In code
+  - Removed Ukraine message at startup
+  - Removed Gamma Range warning (not everyone has access to admin right on their machine)
+- In ReadMe.md
+  - Removed forceful terms of use and political messages
+  - Updated Download paragraph
+
+## Terms of use
 
 By using this project or its source code, for any purpose and in any shape or form, you grant your **implicit agreement** to all the following statements:
 
-- You **condemn Russia and its military aggression against Ukraine**
-- You **recognize that Russia is an occupant that unlawfully invaded a sovereign state**
-- You **support Ukraine's territorial integrity, including its claims over temporarily occupied territories of Crimea and Donbas**
-- You **reject false narratives perpetuated by Russian state propaganda**
-
-To learn more about the war and how you can help, [click here](https://tyrrrz.me/ukraine). Glory to Ukraine! 🇺🇦
+- None ... use this freely
 
 ## Download
 
-- 🟢 [**Stable release**](https://github.com/Tyrrrz/LightBulb/releases)
-- 🟠 [CI build](https://github.com/Tyrrrz/LightBulb/actions/workflows/main.yml)
-- 📦 [WinGet](https://github.com/microsoft/winget-cli): `winget install Tyrrrz.LightBulb` (community-maintained)
-
-> **Note**:
-> If you're unsure which build is right for your system, consult with [this page](https://useragent.cc) to determine your OS and CPU architecture.
+- 🟢 [**Stable release**](https://github.com/xefiry/LightBulb/releases)
 
 ## Features
 

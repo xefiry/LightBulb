@@ -177,9 +177,9 @@ public partial class MainViewModel(
     {
         await FinalizePendingUpdateAsync();
 
-        await ShowUkraineSupportMessageAsync();
+        //await ShowUkraineSupportMessageAsync();
         await ShowDevelopmentBuildMessageAsync();
-        await ShowGammaRangeMessageAsync();
+        //await ShowGammaRangeMessageAsync();
         await ShowFirstTimeExperienceMessageAsync();
 
         _checkForUpdatesTimer.Start();
